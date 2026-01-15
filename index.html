@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List UAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daftar Tugas</h1>
+        
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Masukkan nama tugas...">
+            <button id="addTaskBtn">Tambah</button>
+        </div>
+
+        <div class="stats">
+            <p>Total Tugas: <span id="totalTasks">0</span></p>
+            <p>Selesai: <span id="completedTasks">0</span></p>
+        </div>
+
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
